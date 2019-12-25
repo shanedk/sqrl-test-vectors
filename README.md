@@ -22,6 +22,11 @@ A suite of test vectors to aid developers of SQRL clients (and possibly servers?
   Value (RLV), test the results of the Identity Lock Key (ILK), the Server Unlock
   Key (SUK), the Diffie-Hellman Key Agreement for unlocking the identity (DHKA),
   and the Verify Unlock Key (VUK). All values hex-encoded. *Created by PHolder.*
+- **base56-vectors.txt** - A CSV file of 128 vectors for testing the base56 encoding 
+  employed by SQRL for creating a textual version of a binary identity. The raw input 
+  bytes (random data was used for the test vectors) are offered either base64_url- 
+  or hex-encoded, output is the string created by the base56 encoding. *Created by 
+  Alex Hauser. Still needs to be verified.*
 
 ## Needed
 
